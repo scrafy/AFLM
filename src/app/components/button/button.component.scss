@@ -1,0 +1,23 @@
+.common_button {
+  padding: 0.4em 1em;
+  background-color: #4a86e8;
+  display: inline-block;
+  color: white;
+  margin-left: 2em;
+  font-size: 1.5em;
+  border: 1px solid black;
+}
+
+.common_button--medium {
+  width: 179px;
+  height: 77px;
+}
+
+.common_button--small {
+  width: 179px;
+  height: 77px;
+}
+
+.back-green {
+  background-color: #00ff05 !important;
+}

@@ -1,0 +1,35 @@
+.home-main {
+  border: 1px solid black;
+  padding: 4em;
+  width: 100%;
+  margin-top: 2em;
+  & .home-title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 3em;
+  }
+  & .home-nav {
+    text-align: center;
+    margin-top: 2em;
+  }
+  & .home-letters {
+    text-align: center;
+    margin-top: 2em;
+    & .home-letter {
+      font-size: 15em;
+      &:nth-child(1) {
+        color: #fe0000;
+      }
+      &:nth-child(2) {
+        color: #ff9707;
+      }
+      &:nth-child(3) {
+        color: #fffe02;
+      }
+      &:nth-child(4) {
+        color: #00ff05;
+      }
+    }
+  }
+}

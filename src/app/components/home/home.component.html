@@ -1,0 +1,29 @@
+<main class="home-main">
+  <h2 class="home-title">
+    Bienvenido al nuevo repositorio de la
+  </h2>
+  <section class="home-letters">
+    <span class="home-letter">
+      A
+    </span>
+    <span class="home-letter">
+      F
+    </span>
+    <span class="home-letter">
+      L
+    </span>
+    <span class="home-letter">
+      M
+    </span>
+  </section>
+  <nav class="home-nav">
+    <common-button extra_data='{"path":"animales"}' title="Animales" [isFirst]="true"
+      (onCommonButtonClicked)="showPage($event)" [changeback]="navstore.newstate === 'animales'"></common-button>
+    <common-button extra_data='{"path":"libros"}' title="Libros" [isFirst]="false"
+      (onCommonButtonClicked)="showPage($event)" [changeback]="navstore.newstate === 'libros'"></common-button>
+    <common-button extra_data='{"path":"musica"}' title="Musica" [isFirst]="false"
+      (onCommonButtonClicked)="showPage($event)" [changeback]="navstore.newstate === 'musica'"></common-button>
+    <common-button extra_data='{"path":"salud"}' title="Salud" [isFirst]="false"
+      (onCommonButtonClicked)="showPage($event)" [changeback]="navstore.newstate === 'salud'"></common-button>
+  </nav>
+</main>

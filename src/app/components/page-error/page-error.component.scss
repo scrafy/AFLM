@@ -1,0 +1,23 @@
+.error-page-main {
+  width: 100%;
+  margin-top: 2em;
+  border: 1px solid black;
+  overflow: auto;
+  & .error-page-main-section {
+    padding: 2em;
+  }
+  & .error-page-header {
+    padding: 1em;
+    border-bottom: 1px solid black;
+    background-color: #f4cccc;
+    & .error-page-header-items {
+      display: flex;
+      & .error-page-header-title {
+        text-align: center;
+        flex-grow: 1;
+        font-size: 2em;
+        margin: 0;
+      }
+    }
+  }
+}
